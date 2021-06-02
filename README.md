@@ -11,7 +11,7 @@ APlay (Part of ALSA) (Can be swapped for any other media player)
 
 Install:
 ```
-git clone https://github.com/libmarleu/BashDASDEC.git
+git clone https://github.com/libmarleu/BashENDEC.git
 cd BashDASDEC
 sh install.sh
 ```
