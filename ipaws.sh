@@ -1,6 +1,6 @@
 #!/bin/bash
 mv alert.xml alertold.xml
-wget "https://kj7bre.com/ipaws/server2server_bridge/ipaws.php?pin=INSERTPINHERE" -O ipaws.xml
+wget "https://PUT_FEED_URL_HERE/" -O ipaws.xml
 
 cat ipaws.xml | grep -oP '(?<=<info>).*?(?=</info>)' > alert.xml
 
